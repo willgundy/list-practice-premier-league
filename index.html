@@ -16,59 +16,83 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
+        <section id="buttonSection">
+            <button class="headerButtons">
+                Teams
+            </button>
+            <button class="headerButtons activeButton">
+                Standings
+            </button>
+            <button class="headerButtons">
+                Matches
+            </button>
+        </section>
     </header>
     <main>
-        <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
-
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
+        <section id="matches">
+            <div class="matchCard">
+                <div class="matchCardTeamSeciton">
+                    <div class="teamRow">
+                        <img src="assets/tottenham.png" alt="">
+                        <p>Tottenham</p>
+                    </div>
+                    <div class="teamRow">
+                        <img src="assets/southampton.png" alt="">
+                        <p>Southampton</p>
+                    </div>
+                </div>
+                <div class="matchCardTimeSeciton">
+                    <div>
+                        <p>Sat, Mar 19th</p>
+                        <p>8:30 AM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="teams">
+            <div class="teamCard">
+                <img src="assets/tottenham.png" alt="" class="teamImage">
+                <h2>Tottenham Hotspur</h2>
+                <h3>Founded: 1882</h3>
+                <h3>Nickname: The Lilywhites</h3>
+            </div>
+        </section>
+        <section id="standings">
+            <table>
+                <th>
+                    <td>Club Name</td>
+                    <td>MP</td>
+                    <td>W</td>
+                    <td>D</td>
+                    <td>L</td>
+                    <td>GF</td>
+                    <td>GA</td>
+                    <td>GD</td>
+                    <td>Pts</td>
+                    <td>Last 5</td>
+                </th>
+                <tr>
+                    <td></td>
+                    <td>Tottenham</td>
+                    <td>27</td>
+                    <td>14</td>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>42</td>
+                    <td>35</td>
+                    <td>7</td>
+                    <td>45</td>
+                    <td class="lastFive">
+                        <p>&#9989;</p>
+                        <p>&#128683;</p>
+                        <p>&#9898;</p>
+                        <p>&#9989;</p>
+                        <p>&#9989;</p>
+                    </td>
+                </tr>
+            </table>
         </section>
     </main>
-    <footer>
-        <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
-    </footer>
-
     <script type="module" src="./app.js"></script>
 </body>
 
