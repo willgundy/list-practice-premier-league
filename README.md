@@ -24,3 +24,26 @@ There are only so many things we do in an app.
     4.  Then, in app.js import your array and render function and grab a container element from the DOM.
     5.  Loops through your array, and for each object, render and appends a styled candy element to the container element you grabbed from the DOM.
     6.  Note: do this process **one array at a time**. Do not write 4 arrays, then 4 render functions, etc. Please work through the first array, then the first render function, then the first display function.
+
+
+To Dos:
+1. Add HTML elements
+    - Header
+    - Header Buttons
+    - Teams
+    - Standings
+    - Matches
+2. Create lists of info
+    - buttons
+    - teams
+    - matches
+    - standings
+3. Write append functions
+    - buttons
+    - teams
+    - matches
+    - standings
+4. Write listener functions for the buttons
+    - append ids to button elements
+    - hide elements
+    - default to standings
