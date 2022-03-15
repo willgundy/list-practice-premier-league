@@ -1,0 +1,22 @@
+export const teams = [
+    { id: 0, name: 'Arsenal F.C.', shortName: 'arsenal', founded: '1886', nicknames: 'The Gunners'},
+    { id: 1, name: 'Aston Villa F.C.', shortName: 'astonVilla', founded: '1874', nicknames: 'The Claret and Blue Army'},
+    { id: 2, name: 'Brentford F.C.', shortName: 'brentford', founded: '1889', nicknames: 'The Bees'},
+    { id: 3, name: 'Brighton & Hove Albion F.C.', shortName: 'brighton', founded: '1901', nicknames: 'The Seagulls'},
+    { id: 4, name: 'Burnley F.C.', shortName: 'burnley', founded: '1882', nicknames: 'The Clarets'},
+    { id: 5, name: 'Chelsea F.C.', shortName: 'chelsea', founded: '1905', nicknames: 'The Blues'},
+    { id: 6, name: 'Crystal Palace F.C.', shortName: 'crystalPalace', founded: '1905', nicknames: 'The Eagles'},
+    { id: 7, name: 'Everton F.C.', shortName: 'everton', founded: '1878', nicknames: 'The School of Science'},
+    { id: 8, name: 'Leeds United F.C.', shortName: 'leeds', founded: '1919', nicknames: 'The Peacocks'},
+    { id: 9, name: 'Leicester City F.C.', shortName: 'leicesterCity', founded: '1884', nicknames: 'The Foxes'},
+    { id: 10, name: 'Liverpool F.C.', shortName: 'liverpool', founded: '1892', nicknames: 'The Reds'},
+    { id: 11, name: 'Machester City F.C.', shortName: 'manCity', founded: '1880', nicknames: 'The Citizens'},
+    { id: 12, name: 'Manchester United', shortName: 'manUnited', founded: '1878', nicknames: 'The Red Devils'},
+    { id: 13, name: 'Newcastle United', shortName: 'newcastle', founded: '1892', nicknames: 'The Magpies'},
+    { id: 14, name: 'Norwich City', shortName: 'norwich', founded: '1902', nicknames: 'The Canaries'},
+    { id: 15, name: 'Southampton', shortName: 'southampton', founded: '1885', nicknames: 'The Saints'},
+    { id: 16, name: 'Tottenham Hotspur', shortName: 'tottenham', founded: '1882', nicknames: 'The Lilywhites'},
+    { id: 17, name: 'Watford', shortName: 'watford', founded: '1881', nicknames: 'The Golden Boys'},
+    { id: 18, name: 'West Ham United', shortName: 'westHam', founded: '1895', nicknames: 'The Hammers'},
+    { id: 19, name: 'Wolverhampton Wanderers', shortName: 'wolves', founded: '1877', nicknames: 'The Wolves'}
+];

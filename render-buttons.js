@@ -1,4 +1,4 @@
-export async function renderButtonsEl(button) {
+export function renderButtonsEl(button) {
     const buttonEl = document.createElement('button');
     buttonEl.classList.add('headerButtons');
 
