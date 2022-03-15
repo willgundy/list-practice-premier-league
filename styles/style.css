@@ -38,6 +38,11 @@ button {
 	transition: all 0.4s ease 0s;
 }
 
+.active-button {
+    border-bottom: 3px solid white;
+    font-size: medium;
+}
+
 header {
     display: flex;
     justify-content: center;
