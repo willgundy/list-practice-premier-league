@@ -3,6 +3,8 @@ import { buttons } from './array-buttons.js';
 import { renderButtonsEl } from './render-buttons.js';
 import { teams } from './array-teams.js';
 import { renderTeamsEl } from './render-teams.js';
+import { standings } from './array-standings.js';
+import { renderStandings } from './render-standings.js';
 
 //create button section buttons using imported buttons array
 
@@ -28,4 +30,12 @@ for (let team of teams) {
     const teamCardEl = renderTeamsEl(team);
 
     teamsSection.append(teamCardEl);
+}
+
+const standingsTableEl = document.querySelector('#standingsTable');
+
+for (let position of standings) {
+    const positionEl = renderStandings(position);
+
+    standingsTableEl.append(positionEl);
 }

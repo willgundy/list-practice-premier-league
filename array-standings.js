@@ -19,4 +19,4 @@ export const standings = [
     { id: 17, position: 18, name: 'Watford', gamesPlayed: ['29'], wins: '6', draw: '4', losses: '19', goalsFor: 29, goalsAgainst: 55, points: 22, lastFive: ['W', 'L', 'L', 'T', 'L'] },
     { id: 4, position: 19, name: 'Burnley ', gamesPlayed: ['27'], wins: '3', draw: '12', losses: '12', goalsFor: 22, goalsAgainst: 38, points: 21, lastFive: ['L', 'L', 'L', 'T', 'W'] },
     { id: 14, position: 20, name: 'Norwich City', gamesPlayed: ['29'], wins: '4', draw: '5', losses: '20', goalsFor: 18, goalsAgainst: 63, points: 17, lastFive: ['L', 'L', 'L', 'L', 'L'] }
-]
+];
