@@ -34,12 +34,9 @@ export function renderStandings(position) {
     lastFive.classList.add('lastFive');
 
     const lastFiveResults = position.lastFive;
-    console.log(lastFiveResults);
 
     for (let result in lastFiveResults) {
         const resultEl = document.createElement('p');
-
-        console.log(result);
 
         if (lastFiveResults[result] === 'W') {
             resultEl.innerHTML = '&#9989;';

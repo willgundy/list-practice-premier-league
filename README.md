@@ -11,10 +11,14 @@ There are only so many things we do in an app.
 **Scoring rubric: 2.5 point for each array displayed to the page.**
 
 1.  Goal: render 4 separate lists of things to the same index.html file. Minimally,
-    *   one list should be a list of string,
-    *   one should be a list of simple objects,
-    *   one should be a list of objects where one property is a nested object,
-    *   and one should be a list of objects where one property is an array.
+    *   one list should be a list of string, 
+        - buttons
+    *   one should be a list of simple objects, 
+        - teams
+    *   one should be a list of objects where one property is a nested object, 
+        - matches
+    *   and one should be a list of objects where one property is an array. 
+        - standings
     *   A a stretch goal, feel free to make all of them arrays of deep objects (with array and nested object properties).
 2.  Start with the [list practice template repo](https://github.com/alchemycodelab/display-a-list-practice).
 3.  Repeat the following process 4 times, with 4 different domains, all in the same template:
