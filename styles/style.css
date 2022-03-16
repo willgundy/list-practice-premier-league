@@ -153,3 +153,10 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+th {
+    font-size: large;
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+    margin: 30px;
+}
