@@ -7,6 +7,7 @@ main {
     background-color: #bdc1c6;
     width: 100vw;
     font-family: 'Titillium Web', sans-serif;
+    min-height: 100vh;
 }
 
 section {
@@ -70,7 +71,6 @@ img {
 }
 
 #matches {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,7 +112,6 @@ img {
 }
 
 #teams {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -139,7 +138,6 @@ table {
     width: 80vw;
     background-color: rgb(44, 44, 44);
     color: white;
-    border-bottom: 1px solid white;
     text-align: center;
 }
 

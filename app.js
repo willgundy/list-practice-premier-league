@@ -21,11 +21,46 @@ for (let button of buttons) {
 //add event listeners for button section
 
 const headerButtons = document.querySelectorAll('.headerButtons');
+const teamsButtonEl = document.querySelector('#Teams');
+const standingsButtonEl = document.querySelector('#Standings');
+const matchesButtonEl = document.querySelector('#Matches');
 
 headerButtons.forEach(button => button.addEventListener('mouseover', function(){button.classList.add('button-hover');}));
 headerButtons.forEach(button => button.addEventListener('mouseout', function(){button.classList.remove('button-hover');}));
 
+teamsButtonEl.addEventListener('click', () => {
+    teamsSection.classList.remove('hidden');
+    standingsSection.classList.add('hidden');
+    matchesSection.classList.add('hidden');
 
+    teamsButtonEl.classList.add('active-button');
+    standingsButtonEl.classList.remove('active-button');
+    matchesButtonEl.classList.remove('active-button');
+});
+
+standingsButtonEl.addEventListener('click', () => {
+    teamsSection.classList.add('hidden');
+    standingsSection.classList.remove('hidden');
+    matchesSection.classList.add('hidden');
+
+    teamsButtonEl.classList.remove('active-button');
+    standingsButtonEl.classList.add('active-button');
+    matchesButtonEl.classList.remove('active-button');
+});
+
+matchesButtonEl.addEventListener('click', () => {
+    teamsSection.classList.add('hidden');
+    standingsSection.classList.add('hidden');
+    matchesSection.classList.remove('hidden');
+
+    teamsButtonEl.classList.remove('active-button');
+    standingsButtonEl.classList.remove('active-button');
+    matchesButtonEl.classList.add('active-button');
+});
+
+
+
+//create teams section using imported teams array
 const teamsSection = document.querySelector('#teams');
 
 for (let team of teams) {
@@ -34,6 +69,8 @@ for (let team of teams) {
     teamsSection.append(teamCardEl);
 }
 
+//create standings table using imported standings array
+const standingsSection = document.querySelector('#standings');
 const standingsTableEl = document.querySelector('#standingsTable');
 
 for (let position of standings) {
@@ -42,7 +79,8 @@ for (let position of standings) {
     standingsTableEl.append(positionEl);
 }
 
-const matchesEl = document.querySelector('#matches');
+//create matches section using imported matches array as well as joining to the previously imported teams array
+const matchesSection = document.querySelector('#matches');
 
 for (let match of matches) {
     const team1 = teams.find(team => {
@@ -51,8 +89,8 @@ for (let match of matches) {
     const team2 = teams.find(team => {
         return team.id === match.opponents.team2id;
     });
-    
+
     const matchEl = renderMatches(match, team1, team2);
 
-    matchesEl.append(matchEl);
+    matchesSection.append(matchEl);
 }

@@ -7,5 +7,8 @@ export function renderButtonsEl(button) {
     if (button.active === true) {
         buttonEl.classList.add('active-button');
     }
+
+    buttonEl.id = button.name;
+    
     return buttonEl;
 }
