@@ -18,7 +18,7 @@ for (let button of buttons) {
     buttonSection.append(buttonEl);
 }
 
-//add event listeners for button section
+//add event listeners for button section to show action and hide elements that do not correspond with the button
 
 const headerButtons = document.querySelectorAll('.headerButtons');
 const teamsButtonEl = document.querySelector('#Teams');
