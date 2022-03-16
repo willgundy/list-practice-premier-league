@@ -1,0 +1,22 @@
+export const standings = [
+    { id: 11, position: 1, name: 'Machester City', gamesPlayed: ['29'], wins: '22', draw: '4', losses: '3', goalsFor: 68, goalsAgainst: 18, points: 70, lastFive: ['T', 'W', 'W', 'L', 'W'] },
+    { id: 10, position: 2, name: 'Liverpool', gamesPlayed: ['28'], wins: '20', draw: '6', losses: '2', goalsFor: 73, goalsAgainst: 20, points: 66, lastFive: ['W', 'W', 'W', 'W', 'W'] },
+    { id: 5, position: 3, name: 'Chelsea ', gamesPlayed: ['28'], wins: '17', draw: '8', losses: '3', goalsFor: 57, goalsAgainst: 19, points: 59, lastFive: ['W', 'W', 'W', 'W', 'W'] },
+    { id: 0, position: 4, name: 'Arsenal', gamesPlayed: ['26'], wins: '16', draw: '3', losses: '7', goalsFor: 43, goalsAgainst: 29, points: 51, lastFive: ['W', 'W', 'W', 'W', 'W'] },
+    { id: 12, position: 5, name: 'Manchester United', gamesPlayed: ['29'], wins: '14', draw: '8', losses: '7', goalsFor: 48, goalsAgainst: 40, points: 50, lastFive: ['W', 'L', 'T', 'W', 'W'] },
+    { id: 18, position: 6, name: 'West Ham United', gamesPlayed: ['29'], wins: '14', draw: '6', losses: '9', goalsFor: 48, goalsAgainst: 36, points: 48, lastFive: ['W', 'L', 'W', 'T', 'T'] },
+    { id: 19, position: 7, name: 'Wolverhampton Wanderers', gamesPlayed: ['29'], wins: '14', draw: '4', losses: '11', goalsFor: 29, goalsAgainst: 23, points: 46, lastFive: ['W', 'W', 'L', 'L', 'L'] },
+    { id: 16, position: 8, name: 'Tottenham Hotspur', gamesPlayed: ['27'], wins: '14', draw: '3', losses: '10', goalsFor: 42, goalsAgainst: 35, points: 45, lastFive: ['L', 'W', 'W', 'L', 'W'] },
+    { id: 1, position: 9, name: 'Aston Villa', gamesPlayed: ['28'], wins: '11', draw: '3', losses: '14', goalsFor: 41, goalsAgainst: 39, points: 36, lastFive: ['L', 'W', 'W', 'W', 'L'] },
+    { id: 15, position: 10, name: 'Southampton', gamesPlayed: ['29'], wins: '8', draw: '11', losses: '10', goalsFor: 36, goalsAgainst: 45, points: 35, lastFive: ['L', 'L', 'L', 'W', 'W'] },
+    { id: 6, position: 11, name: 'Crystal Palace ', gamesPlayed: ['29'], wins: '7', draw: '13', losses: '9', goalsFor: 39, goalsAgainst: 38, points: 34, lastFive: ['T', 'W', 'T', 'W', 'L'] },
+    { id: 9, position: 12, name: 'Leicester City', gamesPlayed: ['26'], wins: '9', draw: '6', losses: '11', goalsFor: 40, goalsAgainst: 45, points: 33, lastFive: ['L', 'W', 'W', 'L', 'T'] },
+    { id: 3, position: 13, name: 'Brighton & Hove Albion', gamesPlayed: ['28'], wins: '7', draw: '12', losses: '9', goalsFor: 26, goalsAgainst: 34, points: 33, lastFive: ['L', 'L', 'L', 'L', 'L'] },
+    { id: 13, position: 14, name: 'Newcastle United', gamesPlayed: ['28'], wins: '7', draw: '10', losses: '11', goalsFor: 32, goalsAgainst: 48, points: 31, lastFive: ['L', 'W', 'W', 'W', 'T'] },
+    { id: 2, position: 15, name: 'Brentford', gamesPlayed: ['29'], wins: '8', draw: '6', losses: '15', goalsFor: 32, goalsAgainst: 45, points: 30, lastFive: ['W', 'W', 'L', 'L', 'T'] },
+    { id: 8, position: 16, name: 'Leeds United', gamesPlayed: ['29'], wins: '6', draw: '8', losses: '15', goalsFor: 31, goalsAgainst: 65, points: 26, lastFive: ['W', 'L', 'L', 'L', 'L'] },
+    { id: 7, position: 17, name: 'Everton', gamesPlayed: ['26'], wins: '6', draw: '4', losses: '16', goalsFor: 28, goalsAgainst: 47, points: 22, lastFive: ['L', 'L', 'L', 'L', 'W'] },
+    { id: 17, position: 18, name: 'Watford', gamesPlayed: ['29'], wins: '6', draw: '4', losses: '19', goalsFor: 29, goalsAgainst: 55, points: 22, lastFive: ['W', 'L', 'L', 'T', 'L'] },
+    { id: 4, position: 19, name: 'Burnley ', gamesPlayed: ['27'], wins: '3', draw: '12', losses: '12', goalsFor: 22, goalsAgainst: 38, points: 21, lastFive: ['L', 'L', 'L', 'T', 'W'] },
+    { id: 14, position: 20, name: 'Norwich City', gamesPlayed: ['29'], wins: '4', draw: '5', losses: '20', goalsFor: 18, goalsAgainst: 63, points: 17, lastFive: ['L', 'L', 'L', 'L', 'L'] }
+];
